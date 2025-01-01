@@ -1,0 +1,6 @@
+name = input("please enter your name: ")
+surname = input("please enter your surname here: ")
+age = input("please enter your age: ")
+city_live = input("please enter your location: ")
+hobby = input("please enter your hobby: ")
+print("your name is", name, surname, "and you are", age, "years old", "and you live in", city_live, "and you like doing", hobby)
