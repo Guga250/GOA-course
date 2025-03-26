@@ -1,0 +1,6 @@
+name = input("please enter your name: ")
+surname = input("please enter your surname: ")
+age = input("please enter your age: ")
+height = input("please enter your height: ")
+color = input("please enter your favorite color: ")
+print("your name and surname is", name, surname, "and your age is", age, "your height is", height, "and finally your favorite color is", color,)
