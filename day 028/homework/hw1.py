@@ -1,0 +1,6 @@
+i = input("Enter your name: ")
+print(i.lower())
+l = input("Enter first planets name in the Solar System: ")
+print(l.upper())
+m = input("spell Uncharacteristically: ")
+print(m.capitalize())
