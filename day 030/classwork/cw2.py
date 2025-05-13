@@ -1,1 +1,0 @@
-u = ["guga", "mr qwe", "gio", "doll", "luka",]
