@@ -1,0 +1,16 @@
+/* class-ს გამოვიყენებთ ბევრ თეგის გასასტილად. */
+#i {
+    border-style:solid;
+}
+#b {
+    border-style:double
+}
+#a {
+    color:green
+}
+#d {
+    color:blue
+}
+h1 {
+    border-style:solid; border-color:blue; color:violet; text-align:center
+}
