@@ -1,0 +1,6 @@
+.a {
+    background-color: green; font-family: arial; border-color:orange; border: 2px;
+}
+.b {
+    background-color:darkred; font-family:Verdana, Tahoma, sans-serif; border-style:double; border-color:blue; border:1px;
+}
