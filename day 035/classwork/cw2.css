@@ -1,0 +1,24 @@
+.img1 {
+    border:double, red; width:200; height:200;
+}
+#img2 {
+    width:150; height:150; border:solid, pink;
+}
+.p1 {
+    color:lightblue; 
+}
+.p2 {
+    color:orange;
+}
+p {
+    text-align: center;
+}
+h1 {
+    border:dotted; color:violet; text-align: center;
+}
+.b1 {
+    border:dotted; color:blue; background-color:aqua
+}
+.b2 {
+    border:double; color:red; background-color: bisque;
+}
