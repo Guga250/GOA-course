@@ -1,0 +1,15 @@
+.g {
+    text-align:center; border:red 3px dashed; color:gray;
+}
+p {
+    text-align:center; color:green;
+}
+a {
+    text-align: center; 
+}
+h1 {
+    text-align: center;
+}
+body {
+    background-color: aquamarine;
+}
