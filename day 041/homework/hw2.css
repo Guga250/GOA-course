@@ -1,0 +1,15 @@
+#a {
+    background-color: red;
+    width:100px;
+    height: 200;
+}
+#b {
+    background-color: green;
+    width:200;
+    height:400px;
+}
+#c {
+    background-color: cyan;
+    width:500px;
+    height:200;
+}
