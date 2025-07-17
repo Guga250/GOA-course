@@ -1,0 +1,11 @@
+#b {
+    background-color: blue;
+    width: 50%;
+    height: 125px;
+    margin-bottom:1px;
+}
+#a {
+    background-color: yellow;
+    width: 50%;
+    height: 125px;
+}
