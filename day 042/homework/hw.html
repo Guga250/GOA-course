@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h2  {
+            font-family: sans-serif;
+            color: white;
+            text-align: left;
+            
+        }
+        .p {
+            color:hsl(217, 12%, 63%);
+            font-family: sans-serif;
+        }
+        body {
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:hsl(216, 12%, 8%) ;
+        }
+        .card {
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            background-color: hsl(213, 19%, 18%);
+            height:40%;
+            width: 25%;
+            padding:20px;
+        }
+        .numbers {
+            border-radius: 50%;
+            width:50px;
+            height: 50px;
+            background-color: hsl(0, 0%, 25%);
+            border: solid 0px black;
+            font-family: sans-serif;
+        }
+        .numbers:hover {
+            background-color: orange;
+            font-family: sans-serif;
+        }
+        .numbers:visited {
+            background-color: white;
+            font-family: sans-serif;
+        }
+        .align {
+            display:flex;
+            flex-direction: row;
+            justify-content:space-between;
+            font-family: sans-serif;
+        }
+        #sub {
+            background-color: white;
+            border-radius: 20px;
+            font-family: sans-serif;
+            width: 370px;
+            height:40px;
+            border: 0px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <i class="fa fa-star"></i>
+        <h2 class="h2">How did we do?</h2>
+
+        <p class="p">Please let us know how we did with your support<br>
+        request. All feedback is apreciated to help us <br>
+        improve our offering!</p>
+        <div class="align">
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+        </div>
+        <button id="sub">S U B M I T</button>
+    </div>
+    
+</html>
