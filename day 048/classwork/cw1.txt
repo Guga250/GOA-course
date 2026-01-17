@@ -1,0 +1,5 @@
+background-image = აყენებს background-ს მაგრამ image-ით. საჭიროა რომ url('') გამოვიყენოთ რომ Image ჩავსათ.
+background-size = ეს Property ცვლის background-ის ზომას. 
+background-repeat = მას აქვს ორი Property. repeat და no-repeat. repeat Image-ს იმეორებს და no-repeat პირიქით
+background-position = ცვლის background-ის პოზიციას
+background-attachment = ის pages მიეწეპება. უნდა ჩავწეროთ fixed
