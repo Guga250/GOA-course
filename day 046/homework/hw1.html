@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expenses Chart</title>
+<style>
+*{margin:0;box-sizing:border-box}
+body{
+    font-family:Arial;
+    background:#f4e9dc;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+.card{
+    background:#fff;
+    width:320px;
+    padding:20px;
+    border-radius:10px;
+}
+.header{
+    background:#ec775f;
+    color:#fff;
+    padding:15px;
+    border-radius:8px;
+}
+.chart{
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    height:140px;
+    margin:20px 0;
+}
+.bar{
+    width:30px;
+    background:#ec775f;
+    border-radius:4px 4px 0 0;
+}
+.footer{
+    border-top:1px solid #ddd;
+    padding-top:10px;
+    display:flex;
+    justify-content:space-between;
+}
+small{color:gray}
+</style>
+</head>
+<body>
+<div class="card">
+<div class="header">
+    <small>My balance</small>
+    <h2>$921.48</h2>
+</div>
+    <h3>Spending - Last 7 days</h3>
+<div class="chart">
+    <div class="bar" style="height:40%"></div>
+    <div class="bar" style="height:70%"></div>
+    <div class="bar" style="height:50%"></div>
+    <div class="bar" style="height:60%"></div>
+    <div class="bar big" style="height:90%"></div>
+    <div class="bar" style="height:65%"></div>
+    <div class="bar" style="height:30%"></div>
+</div>
+<div class="footer">
+    <div>
+    <small>Total this month</small>
+        <h2>$478.33</h2>
+    </div>
+    <div>
+        <strong>+2.4%</strong>
+        <small>from last month</small>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
