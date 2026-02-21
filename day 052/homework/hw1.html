@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Single Price Grid</title>
+    <style>
+        body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: Arial;
+}
+.car {
+    width: 600px;
+    height:700px;
+    margin: 100px;
+    background-color: white;
+}
+.top {
+    padding: 30px;
+}
+.top h2 {
+    color: hsl(179, 62%, 43%);
+}
+.top h3 {
+    color: hsl(71, 73%, 54%);
+}
+.top p {
+    color: gray;
+}
+.botom {
+    width: 100%;
+}
+.left {
+    width: 300px;
+    float: left;
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    padding: 30px;
+}
+.right {
+    width: 300px;
+    float: left;
+    background-color: hsl(179, 62%, 50%);
+    color: white;
+    padding: 30px;
+}
+.price {
+    font-size: 28px;
+}
+
+.price span {
+    font-size: 14px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 5px 0;
+}
+@media (max-width:700px){
+    .car {
+        height: 400px;
+    }
+}
+    </style>
+</head>
+<body>
+<div class="car">
+
+    <div class="top">
+        <h2>Join our community</h2>
+        <h3>30-day, hassle-free money back guarantee</h3>
+        <p>
+            Gain access to our full library of tutorials along with expert code reviews.
+            Perfect for any developers who are serious about honing their skills.
+        </p>
+    </div>
+
+    <div class="botom">
+        <div class="left">
+            <h3>Monthly Subscription</h3>
+            <p class="price">$29 <span>per month</span></p>
+            <p>Full access for less than $1 a day</p>
+            <button>Sign Up</button>
+        </div>
+
+        <div class="right">
+            <h3>Why Us</h3>
+            <ul>
+                <li>Tutorials by industry experts</li>
+                <li>Peer & expert code review</li>
+                <li>Coding exercises</li>
+                <li>Access to our GitHub repos</li>
+                <li>Community forum</li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
