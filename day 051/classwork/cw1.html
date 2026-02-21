@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+        @keyframes translate {
+            from {
+                transform: translate(0px);
+            }
+            to {
+                transform:translateY(-50px);
+            }
+        }
+        .a {
+            width:200px;
+            height:200px;
+            background-color: rgb(47, 255, 172);
+            border-radius: 8px;
+            animation: translate 1s infinite;
+        }
+        
+        @keyframes rotate {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        .b {
+            width:200px;
+            height:200px;
+            background-color: rgb(255, 112, 193);
+            border-radius: 8px;
+            animation: rotate 1s infinite;
+        }
+        @keyframes scale {
+            100% {
+                transform: scale(0.5);
+            }
+        }
+        .c {
+            width:200px;
+            height:200px;
+            background-color: rgb(135, 255, 255);
+            border-radius: 8px;
+            animation:scale 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>
