@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding:5px;
+            margin:20px;
+            gap: 20px;
+            height:200vh;
+        }
+        .box {
+            background-color: brown;
+            width: 300px;
+            height:300px;
+        }
+        .rotate:hover {
+            transform: rotate(45deg);
+        }
+        .rotateY:active {
+            transform: rotateY(180deg);
+        }
+        .rotateX:hover {
+            transform: rotateX(90deg);
+        }
+        .scale:hover {
+            transform: scale(120%);
+        }
+        .scaleY:hover {
+            transform: scaleY(70%);
+        }
+        .scaleX:hover {
+            transform: scaleX(150%);
+        }
+        .skew:hover {
+            transform: skew(15%);
+        }
+        .skewY:hover {
+            transform: skewY(20deg);
+        }
+        .skewX:hover {
+            transform: skewX(-10deg);
+        }
+        .translate:hover {
+            transform: translate(50px, 30px);
+        }
+    </style>
+</head>
+<body>
+    <div class="rotate box"></div>
+    <div class="rotateY box"></div>
+    <div class="rotateX box"></div>
+    <div class="scale box"></div>
+    <div class="scaleY box"></div>
+    <div class="scaleX box"></div>
+    <div class="skew box"></div>
+    <div class="skewY box"></div>
+    <div class="skewX box"></div>
+    <div class="translate box"></div>
+</body>
+</html>
+<!-- 
+skew()
+შექმენი div, რომელიც hover-ზე გადაიხრება 15deg-ით.
+
+skewY()
+შექმენი ელემენტი, რომელიც hover-ზე ვერტიკალურად გადაიხრება 20deg-ით.
+
+skewX()
+შექმენი ბლოკი, რომელიც hover-ზე ჰორიზონტალურად გადაიხრება -10deg-ით.
+
+translate()
+შექმენი div, რომელიც hover-ზე გადაინაცვლებს მარჯვნივ 50px და ქვემოთ 30px.
+-->
