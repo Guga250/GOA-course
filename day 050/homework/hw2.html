@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .b {
+            height:50px;
+            width:50px;
+            border-radius: 50%;
+            border:solid rgb(255, 140, 140) 5px;
+            border-top:0px;
+            animation: spi 1s infinite;
+            animation-timing-function:linear
+        }
+        @keyframes spi {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform:rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="b"></div>
+</body>
+</html>

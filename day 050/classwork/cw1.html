@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes move {
+            0% {transform: translate(250px , 0px);}
+            50% {transform: translate(499px, 0px);}
+            99% {transform: rotate(89deg);}
+            100% {transform: translate(500px, 0px) rotate(90deg);}
+        }
+        .a {
+            height:400px;
+            width:400px;
+            animation: move 1s 1s 1;
+            animation-fill-mode:forwards;
+        }
+    </style>
+</head>
+<body>
+    <img src="car_Z.png" class="a" alt="">
+</body>
+</html>
