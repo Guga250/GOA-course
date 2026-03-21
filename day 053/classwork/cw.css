@@ -1,0 +1,25 @@
+.parent {
+    height:600px;
+    width:600px;
+    border:black solid 3px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+}
+.child {
+    border:black solid 2px;
+    background-color: lawngreen;
+}
+#second {
+    grid-row-start: 1;
+    grid-row-end:3;
+    grid-column-start: 2;
+}
+#third {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end:3 ;
+}
+#yellow {
+    background-color: yellow;
+}
