@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(234, 234, 255);
+        }
+        .card1 {
+            background:linear-gradient(rgb(109, 0, 233),blue);
+            height:550px;
+            width: 400px;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .head {
+            color:rgba(255, 255, 255, 0.701);
+            font-family: sans-serif;
+        }
+        .circle {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            background: linear-gradient(rgba(0, 0, 0, 0.462), rgba(255, 255, 255, 0));
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .score_1 {
+            font-size: 70px;
+            color: white;
+            height:30px;
+            font-family: sans-serif;
+        }
+        .score_2 {
+            color:rgba(255, 255, 255, 0.262);
+            font-family: sans-serif;
+        }
+        .comment {
+            color:white;
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .info {
+            color:rgba(255, 255, 255, 0.400);
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .main_card {
+            height:550px;
+            width: 800px;
+            border-radius: 18px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height:70px;
+            width: 200px;
+        }
+        .icon {
+            height:20px;
+            width: 20px;
+        }
+        .card2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            width:400px;
+            height:550px;
+            border-bottom-right-radius: 18px;
+            border-top-right-radius: 18px;
+        }
+        .result_100_precent {
+            color:rgb(157, 157, 157)
+        }
+        .sum {
+            font-family: sans-serif;
+            font-size: 30px;
+        }
+        .sum_div {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            width: 300px;
+        }
+        .rows {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .last_but {
+            width: 300px;
+            height:50px;
+            border-radius: 30px;
+            border:none;
+            background-color: rgb(18, 18, 107);
+            color:white;
+            font-family: sans-serif;
+        }
+        .last_but:hover {
+            background-color: rgb(1, 1, 59);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="main_card">
+        <div class="card1">
+            <h2 class="head">your result</h2>
+            <div class="circle">
+                <h1 class="score_1">76</h1>
+                <p class="score_2">of 100</p>
+            </div>
+            <p class="comment">great</p>
+            <p class="info">you scored 65% higher than of<br> people who have taken<br> these tests.</p>
+        </div>
+        <div class="card2">
+            <div class="sum_div">
+                <h2 class="sum">Summary</h2>
+            </div>
+            <div class="row">
+                <div class="rows">
+                    <img class="icon" src="Lightning--Streamline-Phosphor.png" alt="">
+                    <p style="color:rgb(255, 140, 140); font-weight: 600;">Reaction</p>
+                </div>
+                <div>
+                    <span>80</span><span class="result_100_precent">/100</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rows">
+                    <img class="icon" src="Clock--Streamline-Phosphor.png" alt="">
+                    <p style="color:rgb(255, 255, 85); font-weight: 600;">Memory</p>
+                </div>
+                <div>
+                    <span>92</span><span class="result_100_precent">/100</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rows">
+                    <img class="icon" src="Chat-Circle-Text--Streamline-Phosphor.png" alt="">
+                    <p style="color:rgb(191, 255, 94); font-weight: 600;">Verbal</p>
+                </div>
+                <div>
+                    <span>61</span><span class="result_100_precent">/100</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="rows">
+                    <img class="icon" src="Eye--Streamline-Phosphor.png" alt="">
+                    <p style="color:rgb(128, 128, 255); font-weight: 600;">Visual</p>
+                </div>
+                <div>
+                    <span>73</span><span class="result_100_precent">/100</span>
+                </div>
+            </div>
+            <button class="last_but">Continue</button>
+        </div>
+    </div>
+    
+</body>
+</html>

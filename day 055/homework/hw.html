@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(26, 26, 26);
+            height:100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background-color: rgb(38,38,38);
+            height:800px;
+            width:530px;
+            border-radius: 18px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: space-evenly;
+        }
+        .card img {
+            border-radius: 50%;
+            height: 95px;
+            width: 95px;
+        }
+        .heading {
+            font-family: sans-serif;
+            color:white;
+        }
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+        .location {
+            color:greenyellow
+        }
+        .job {
+            color:white;
+        }
+        .but {
+            width:400px;
+            height:50px;
+            background-color: rgb(65, 65, 65);
+            border: none;
+            border-radius: 10px;
+        }
+        .but:hover {
+            background-color: rgb(25, 25, 25);
+        }
+        .but_xl {
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="camel.jpg">
+        <div class="info">
+            <h1 class="heading">Stupid Camel</h1>
+            <b class="location">London, United kingdom</b>
+        </div>
+        <p class="job">"Front-end developer and avid reader"</p>
+        <div class="but_xl">
+            <button class="but">Github</button>
+            <button class="but">Frontend mentor</button>
+            <button class="but">Linkedin</button>
+            <button class="but">Twitter</button>
+            <button class="but">Instagram</button>
+        </div>
+    </div>
+</body>
+</html>
