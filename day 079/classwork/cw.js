@@ -90,7 +90,7 @@ const employee = {
     remote:false
 }
 for(let i in employee){
-    console.log(`${i} -> ${employee[i]}`)
+    console.log(${i} -> ${employee[i]})
 }
 //20
 const website = {
@@ -134,4 +134,3 @@ for(let i in book){
         console.log(i)
     }
 }
-

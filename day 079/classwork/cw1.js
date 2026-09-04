@@ -78,9 +78,3 @@ accelerate()
 accelerate()
 accelerate()
 console.log(car.speed)
-/*
-
-27)
-
-შექმენი car ობიექტი brand, model, year, speed და fuel property-ებით. დაამატე accelerate მეთოდი, რომელიც speed-ს 10-ით გაზრდის ყოველ გამოძახებაზე. გამოიძახე მეთოდი 3-ჯერ.
-*/
